@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23A6C661AB67D7A0011A82C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C651AB67D7A0011A82C /* main.m */; };
+		B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C681AB67D7A0011A82C /* AppDelegate.m */; };
+		B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C6B1AB67D7A0011A82C /* ViewController.m */; };
+		B23A6C6F1AB67D7A0011A82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C6D1AB67D7A0011A82C /* Main.storyboard */; };
+		B23A6C711AB67D7A0011A82C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C701AB67D7A0011A82C /* Images.xcassets */; };
+		B23A6C741AB67D7A0011A82C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */; };
+		B23A6C801AB67D7A0011A82C /* NTLoveWeddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */; };
+		B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C8B1AB682530011A82C /* NTParentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23A6C7A1AB67D7A0011A82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23A6C581AB67D7A0011A82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23A6C5F1AB67D7A0011A82C;
+			remoteInfo = NTLoveWedding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23A6C601AB67D7A0011A82C /* NTLoveWedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTLoveWedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23A6C641AB67D7A0011A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23A6C651AB67D7A0011A82C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23A6C671AB67D7A0011A82C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23A6C681AB67D7A0011A82C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B23A6C6A1AB67D7A0011A82C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B23A6C6B1AB67D7A0011A82C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B23A6C6E1AB67D7A0011A82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23A6C701AB67D7A0011A82C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B23A6C731AB67D7A0011A82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B23A6C791AB67D7A0011A82C /* NTLoveWeddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTLoveWeddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23A6C7E1AB67D7A0011A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTLoveWeddingTests.m; sourceTree = "<group>"; };
+		B23A6C8A1AB682530011A82C /* NTParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTParentViewController.h; sourceTree = "<group>"; };
+		B23A6C8B1AB682530011A82C /* NTParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTParentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23A6C5D1AB67D7A0011A82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23A6C761AB67D7A0011A82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23A6C571AB67D7A0011A82C = {
+			isa = PBXGroup;
+			children = (
+				B23A6C621AB67D7A0011A82C /* NTLoveWedding */,
+				B23A6C7C1AB67D7A0011A82C /* NTLoveWeddingTests */,
+				B23A6C611AB67D7A0011A82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23A6C611AB67D7A0011A82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23A6C601AB67D7A0011A82C /* NTLoveWedding.app */,
+				B23A6C791AB67D7A0011A82C /* NTLoveWeddingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23A6C621AB67D7A0011A82C /* NTLoveWedding */ = {
+			isa = PBXGroup;
+			children = (
+				B23A6C671AB67D7A0011A82C /* AppDelegate.h */,
+				B23A6C681AB67D7A0011A82C /* AppDelegate.m */,
+				B23A6C8A1AB682530011A82C /* NTParentViewController.h */,
+				B23A6C8B1AB682530011A82C /* NTParentViewController.m */,
+				B23A6C6A1AB67D7A0011A82C /* ViewController.h */,
+				B23A6C6B1AB67D7A0011A82C /* ViewController.m */,
+				B23A6C6D1AB67D7A0011A82C /* Main.storyboard */,
+				B23A6C701AB67D7A0011A82C /* Images.xcassets */,
+				B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */,
+				B23A6C631AB67D7A0011A82C /* Supporting Files */,
+			);
+			path = NTLoveWedding;
+			sourceTree = "<group>";
+		};
+		B23A6C631AB67D7A0011A82C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23A6C641AB67D7A0011A82C /* Info.plist */,
+				B23A6C651AB67D7A0011A82C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B23A6C7C1AB67D7A0011A82C /* NTLoveWeddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */,
+				B23A6C7D1AB67D7A0011A82C /* Supporting Files */,
+			);
+			path = NTLoveWeddingTests;
+			sourceTree = "<group>";
+		};
+		B23A6C7D1AB67D7A0011A82C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23A6C7E1AB67D7A0011A82C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23A6C5F1AB67D7A0011A82C /* NTLoveWedding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23A6C831AB67D7A0011A82C /* Build configuration list for PBXNativeTarget "NTLoveWedding" */;
+			buildPhases = (
+				B23A6C5C1AB67D7A0011A82C /* Sources */,
+				B23A6C5D1AB67D7A0011A82C /* Frameworks */,
+				B23A6C5E1AB67D7A0011A82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTLoveWedding;
+			productName = NTLoveWedding;
+			productReference = B23A6C601AB67D7A0011A82C /* NTLoveWedding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23A6C781AB67D7A0011A82C /* NTLoveWeddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23A6C861AB67D7A0011A82C /* Build configuration list for PBXNativeTarget "NTLoveWeddingTests" */;
+			buildPhases = (
+				B23A6C751AB67D7A0011A82C /* Sources */,
+				B23A6C761AB67D7A0011A82C /* Frameworks */,
+				B23A6C771AB67D7A0011A82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23A6C7B1AB67D7A0011A82C /* PBXTargetDependency */,
+			);
+			name = NTLoveWeddingTests;
+			productName = NTLoveWeddingTests;
+			productReference = B23A6C791AB67D7A0011A82C /* NTLoveWeddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23A6C581AB67D7A0011A82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = liying;
+				TargetAttributes = {
+					B23A6C5F1AB67D7A0011A82C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = F87ZAB3JQF;
+					};
+					B23A6C781AB67D7A0011A82C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B23A6C5F1AB67D7A0011A82C;
+					};
+				};
+			};
+			buildConfigurationList = B23A6C5B1AB67D7A0011A82C /* Build configuration list for PBXProject "NTLoveWedding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23A6C571AB67D7A0011A82C;
+			productRefGroup = B23A6C611AB67D7A0011A82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23A6C5F1AB67D7A0011A82C /* NTLoveWedding */,
+				B23A6C781AB67D7A0011A82C /* NTLoveWeddingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23A6C5E1AB67D7A0011A82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23A6C6F1AB67D7A0011A82C /* Main.storyboard in Resources */,
+				B23A6C741AB67D7A0011A82C /* LaunchScreen.xib in Resources */,
+				B23A6C711AB67D7A0011A82C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23A6C771AB67D7A0011A82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23A6C5C1AB67D7A0011A82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */,
+				B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */,
+				B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */,
+				B23A6C661AB67D7A0011A82C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23A6C751AB67D7A0011A82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23A6C801AB67D7A0011A82C /* NTLoveWeddingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23A6C7B1AB67D7A0011A82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23A6C5F1AB67D7A0011A82C /* NTLoveWedding */;
+			targetProxy = B23A6C7A1AB67D7A0011A82C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23A6C6D1AB67D7A0011A82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23A6C6E1AB67D7A0011A82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23A6C731AB67D7A0011A82C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23A6C811AB67D7A0011A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B23A6C821AB67D7A0011A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23A6C841AB67D7A0011A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NTLoveWedding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B23A6C851AB67D7A0011A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NTLoveWedding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B23A6C871AB67D7A0011A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NTLoveWeddingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTLoveWedding.app/NTLoveWedding";
+			};
+			name = Debug;
+		};
+		B23A6C881AB67D7A0011A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NTLoveWeddingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTLoveWedding.app/NTLoveWedding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23A6C5B1AB67D7A0011A82C /* Build configuration list for PBXProject "NTLoveWedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A6C811AB67D7A0011A82C /* Debug */,
+				B23A6C821AB67D7A0011A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23A6C831AB67D7A0011A82C /* Build configuration list for PBXNativeTarget "NTLoveWedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A6C841AB67D7A0011A82C /* Debug */,
+				B23A6C851AB67D7A0011A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B23A6C861AB67D7A0011A82C /* Build configuration list for PBXNativeTarget "NTLoveWeddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23A6C871AB67D7A0011A82C /* Debug */,
+				B23A6C881AB67D7A0011A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23A6C581AB67D7A0011A82C /* Project object */;
+}
