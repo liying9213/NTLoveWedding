@@ -18,11 +18,42 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zzZ-RE-Rlu"/>
+                    <navigationItem key="navigationItem" id="zzZ-RE-Rlu">
+                        <barButtonItem key="rightBarButtonItem" image="icon_tabbar_mine_selected.png" id="YPi-Sp-egO">
+                            <connections>
+                                <segue destination="C70-gg-8L2" kind="push" id="yfp-Dl-AiY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994" y="234"/>
+            <point key="canvasLocation" x="1024" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tmi-AY-TqS">
+            <objects>
+                <viewController id="C70-gg-8L2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hHD-MY-ERM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ewo-HT-rVb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bWS-9x-mkp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hte-ju-O6d">
+                        <barButtonItem key="leftBarButtonItem" image="btn_backItem.png" id="xIy-XI-1Hs">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="push" id="k1I-iY-jDr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Im8-BD-r2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="686"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oVW-oM-ah6">
@@ -38,7 +69,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNG-2r-bFF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="234"/>
+            <point key="canvasLocation" x="361" y="-35"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_backItem.png" width="46" height="46"/>
+        <image name="icon_tabbar_mine_selected.png" width="52" height="52"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="k1I-iY-jDr"/>
+    </inferredMetricsTieBreakers>
 </document>

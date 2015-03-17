@@ -113,6 +113,8 @@
 				B23A6C6D1AB67D7A0011A82C /* Main.storyboard */,
 				B23A6C701AB67D7A0011A82C /* Images.xcassets */,
 				B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */,
+				B2EB5C441AB831E2005DBC9B /* NTTableViewCell */,
+				B2EB5C451AB831E2005DBC9B /* NTUser */,
 				B2EB5C301AB812DA005DBC9B /* NTCustomClass */,
 				B2EB5C371AB814DD005DBC9B /* NTResource */,
 				B23A6C631AB67D7A0011A82C /* Supporting Files */,
@@ -168,6 +170,20 @@
 				B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */,
 			);
 			path = NTResource;
+			sourceTree = "<group>";
+		};
+		B2EB5C441AB831E2005DBC9B /* NTTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NTTableViewCell;
+			sourceTree = "<group>";
+		};
+		B2EB5C451AB831E2005DBC9B /* NTUser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NTUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

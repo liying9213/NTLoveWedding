@@ -40,16 +40,16 @@
  *
  *
  */
--(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType
+-(void)setLeftItemtype:(int)LeftType RightItemtype:(int)RightType
 {
     UIView * leftView = [[UIView alloc] initWithFrame:CGRectZero];
     leftView.backgroundColor = [UIColor clearColor];
-    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]
+    UIBarButtonItem *spaceButtonItem = [[UIBarButtonItem alloc]
                                        initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
                                        target:nil action:nil];
-    negativeSpacer.width = -10;
+    spaceButtonItem.width = -10;
     UIBarButtonItem * _leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];
-    self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:negativeSpacer, _leftBarButtonItem, nil];
+    self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:spaceButtonItem, _leftBarButtonItem, nil];
     _leftBarButtonItem=nil;
     switch (LeftType)
     {
@@ -61,15 +61,15 @@
         case 1:
         {
             UIButton * _localBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-            _localBtn.frame = CGRectMake(0, 0, 44, 44);
+            _localBtn.frame = CGRectMake(7, 7, 30, 30);
             [_localBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_nearby_selected.png"] forState:UIControlStateNormal];
             [_localBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_nearby.png"] forState:UIControlStateHighlighted];
             [_localBtn addTarget:self action:@selector(localAction:) forControlEvents:UIControlEventTouchUpInside];
-            [_localBtn setTitle:@"北京" forState:UIControlStateNormal];
-            [_localBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
-            _localBtn.titleLabel.font=[UIFont systemFontOfSize:14];
-            _localBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-            _localBtn.contentEdgeInsets = UIEdgeInsetsMake(2,4, 0, 0);
+//            [_localBtn setTitle:@"北京" forState:UIControlStateNormal];
+//            [_localBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+//            _localBtn.titleLabel.font=[UIFont systemFontOfSize:14];
+//            _localBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+//            _localBtn.contentEdgeInsets = UIEdgeInsetsMake(2,4, 0, 0);
             _localBtn.backgroundColor = [UIColor clearColor];
             [leftView addSubview:_localBtn];
             leftView.frame = CGRectMake(0, 0, 44, 44);
@@ -92,22 +92,35 @@
         default:
             break;
     }
-    switch (RightType)
+    if (RightType!=0)
     {
-        case 0:
+        UIView * rightView = [[UIView alloc] initWithFrame:CGRectZero];
+        rightView.backgroundColor = [UIColor clearColor];
+        UIBarButtonItem *bar=[[UIBarButtonItem alloc] initWithCustomView:rightView];
+        self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:spaceButtonItem, bar, nil];
+        bar=nil;
+        switch (RightType)
         {
-            
+            case 1:
+            {
+                UIButton * _userBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+                _userBtn.frame = CGRectMake(7, 7, 30, 30);
+                [_userBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_mine_selected.png"] forState:UIControlStateNormal];
+                [_userBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_mine.png"] forState:UIControlStateHighlighted];
+                [_userBtn addTarget:self action:@selector(userAction:) forControlEvents:UIControlEventTouchUpInside];
+                _userBtn.backgroundColor = [UIColor clearColor];
+                [rightView addSubview:_userBtn];
+                rightView.frame = CGRectMake(0, 0, 44, 44);
+                _userBtn = nil;
+            }
+                break;
+                
+            default:
+                break;
         }
-            break;
-        case 1:
-        {
-            
-        }
-            break;
-            
-        default:
-            break;
     }
+    
+    
     
 }
 
