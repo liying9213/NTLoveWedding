@@ -15,6 +15,14 @@
 		B23A6C741AB67D7A0011A82C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */; };
 		B23A6C801AB67D7A0011A82C /* NTLoveWeddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */; };
 		B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C8B1AB682530011A82C /* NTParentViewController.m */; };
+		B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C321AB8131B005DBC9B /* NTColor.m */; };
+		B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C351AB8137A005DBC9B /* NTImage.m */; };
+		B2EB5C3E1AB81AD1005DBC9B /* btn_backItem_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C381AB81AD1005DBC9B /* btn_backItem_highlighted.png */; };
+		B2EB5C3F1AB81AD1005DBC9B /* btn_backItem.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C391AB81AD1005DBC9B /* btn_backItem.png */; };
+		B2EB5C401AB81AD1005DBC9B /* icon_tabbar_mine_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3A1AB81AD1005DBC9B /* icon_tabbar_mine_selected.png */; };
+		B2EB5C411AB81AD1005DBC9B /* icon_tabbar_mine.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3B1AB81AD1005DBC9B /* icon_tabbar_mine.png */; };
+		B2EB5C421AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3C1AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png */; };
+		B2EB5C431AB81AD1005DBC9B /* icon_tabbar_nearby.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,17 @@
 		B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTLoveWeddingTests.m; sourceTree = "<group>"; };
 		B23A6C8A1AB682530011A82C /* NTParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTParentViewController.h; sourceTree = "<group>"; };
 		B23A6C8B1AB682530011A82C /* NTParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTParentViewController.m; sourceTree = "<group>"; };
+		B2EB5C2D1AB811D7005DBC9B /* NTdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTdefine.h; sourceTree = "<group>"; };
+		B2EB5C311AB8131B005DBC9B /* NTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTColor.h; sourceTree = "<group>"; };
+		B2EB5C321AB8131B005DBC9B /* NTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTColor.m; sourceTree = "<group>"; };
+		B2EB5C341AB8137A005DBC9B /* NTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTImage.h; sourceTree = "<group>"; };
+		B2EB5C351AB8137A005DBC9B /* NTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTImage.m; sourceTree = "<group>"; };
+		B2EB5C381AB81AD1005DBC9B /* btn_backItem_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_backItem_highlighted.png; sourceTree = "<group>"; };
+		B2EB5C391AB81AD1005DBC9B /* btn_backItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_backItem.png; sourceTree = "<group>"; };
+		B2EB5C3A1AB81AD1005DBC9B /* icon_tabbar_mine_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_mine_selected.png; sourceTree = "<group>"; };
+		B2EB5C3B1AB81AD1005DBC9B /* icon_tabbar_mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_mine.png; sourceTree = "<group>"; };
+		B2EB5C3C1AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_nearby_selected.png; sourceTree = "<group>"; };
+		B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_nearby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +103,7 @@
 		B23A6C621AB67D7A0011A82C /* NTLoveWedding */ = {
 			isa = PBXGroup;
 			children = (
+				B2EB5C2D1AB811D7005DBC9B /* NTdefine.h */,
 				B23A6C671AB67D7A0011A82C /* AppDelegate.h */,
 				B23A6C681AB67D7A0011A82C /* AppDelegate.m */,
 				B23A6C8A1AB682530011A82C /* NTParentViewController.h */,
@@ -93,6 +113,8 @@
 				B23A6C6D1AB67D7A0011A82C /* Main.storyboard */,
 				B23A6C701AB67D7A0011A82C /* Images.xcassets */,
 				B23A6C721AB67D7A0011A82C /* LaunchScreen.xib */,
+				B2EB5C301AB812DA005DBC9B /* NTCustomClass */,
+				B2EB5C371AB814DD005DBC9B /* NTResource */,
 				B23A6C631AB67D7A0011A82C /* Supporting Files */,
 			);
 			path = NTLoveWedding;
@@ -122,6 +144,30 @@
 				B23A6C7E1AB67D7A0011A82C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EB5C301AB812DA005DBC9B /* NTCustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB5C311AB8131B005DBC9B /* NTColor.h */,
+				B2EB5C321AB8131B005DBC9B /* NTColor.m */,
+				B2EB5C341AB8137A005DBC9B /* NTImage.h */,
+				B2EB5C351AB8137A005DBC9B /* NTImage.m */,
+			);
+			path = NTCustomClass;
+			sourceTree = "<group>";
+		};
+		B2EB5C371AB814DD005DBC9B /* NTResource */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB5C381AB81AD1005DBC9B /* btn_backItem_highlighted.png */,
+				B2EB5C391AB81AD1005DBC9B /* btn_backItem.png */,
+				B2EB5C3A1AB81AD1005DBC9B /* icon_tabbar_mine_selected.png */,
+				B2EB5C3B1AB81AD1005DBC9B /* icon_tabbar_mine.png */,
+				B2EB5C3C1AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png */,
+				B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */,
+			);
+			path = NTResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +251,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EB5C401AB81AD1005DBC9B /* icon_tabbar_mine_selected.png in Resources */,
 				B23A6C6F1AB67D7A0011A82C /* Main.storyboard in Resources */,
+				B2EB5C3F1AB81AD1005DBC9B /* btn_backItem.png in Resources */,
+				B2EB5C411AB81AD1005DBC9B /* icon_tabbar_mine.png in Resources */,
 				B23A6C741AB67D7A0011A82C /* LaunchScreen.xib in Resources */,
+				B2EB5C3E1AB81AD1005DBC9B /* btn_backItem_highlighted.png in Resources */,
+				B2EB5C421AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png in Resources */,
 				B23A6C711AB67D7A0011A82C /* Images.xcassets in Resources */,
+				B2EB5C431AB81AD1005DBC9B /* icon_tabbar_nearby.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,10 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */,
 				B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */,
 				B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */,
 				B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */,
 				B23A6C661AB67D7A0011A82C /* main.m in Sources */,
+				B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +477,7 @@
 				B23A6C851AB67D7A0011A82C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B23A6C861AB67D7A0011A82C /* Build configuration list for PBXNativeTarget "NTLoveWeddingTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +486,7 @@
 				B23A6C881AB67D7A0011A82C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

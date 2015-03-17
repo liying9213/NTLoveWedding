@@ -7,7 +7,8 @@
 //
 
 #import "NTParentViewController.h"
-
+#import "NTColor.h"
+#import "NTImage.h"
 @interface NTParentViewController ()
 
 @end
@@ -17,11 +18,97 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.translucent = NO;
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/*
+ *leftType
+ * 0:空
+ * 1:位置
+ * 2:返回
+ *
+ *
+ *rightType
+ * 0:空
+ * 1:用户
+ *
+ *
+ *
+ */
+-(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType
+{
+    UIView * leftView = [[UIView alloc] initWithFrame:CGRectZero];
+    leftView.backgroundColor = [UIColor clearColor];
+    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]
+                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
+                                       target:nil action:nil];
+    negativeSpacer.width = -10;
+    UIBarButtonItem * _leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];
+    self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:negativeSpacer, _leftBarButtonItem, nil];
+    _leftBarButtonItem=nil;
+    switch (LeftType)
+    {
+        case 0:
+        {
+            
+        }
+            break;
+        case 1:
+        {
+            UIButton * _localBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+            _localBtn.frame = CGRectMake(0, 0, 44, 44);
+            [_localBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_nearby_selected.png"] forState:UIControlStateNormal];
+            [_localBtn setImage:[NTImage imageWithFileName:@"icon_tabbar_nearby.png"] forState:UIControlStateHighlighted];
+            [_localBtn addTarget:self action:@selector(localAction:) forControlEvents:UIControlEventTouchUpInside];
+            [_localBtn setTitle:@"北京" forState:UIControlStateNormal];
+            [_localBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+            _localBtn.titleLabel.font=[UIFont systemFontOfSize:14];
+            _localBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+            _localBtn.contentEdgeInsets = UIEdgeInsetsMake(2,4, 0, 0);
+            _localBtn.backgroundColor = [UIColor clearColor];
+            [leftView addSubview:_localBtn];
+            leftView.frame = CGRectMake(0, 0, 44, 44);
+            _localBtn = nil;
+        }
+            break;
+        case 2:
+        {
+            UIButton * _backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+            _backBtn.frame = CGRectMake(0, 0, 44, 44);
+            [_backBtn setImage:[NTImage imageWithFileName:@"btn_backItem.png"] forState:UIControlStateNormal];
+            [_backBtn setImage:[NTImage imageWithFileName:@"btn_backItem_highlighted.png"] forState:UIControlStateHighlighted];
+            [_backBtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
+            _backBtn.backgroundColor = [UIColor clearColor];
+            [leftView addSubview:_backBtn];
+            leftView.frame = CGRectMake(0, 0, 44, 44);
+            _backBtn = nil;
+        }
+            break;
+        default:
+            break;
+    }
+    switch (RightType)
+    {
+        case 0:
+        {
+            
+        }
+            break;
+        case 1:
+        {
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
+    
 }
 
 /*

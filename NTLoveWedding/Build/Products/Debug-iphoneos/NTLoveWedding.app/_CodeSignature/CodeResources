@@ -75,9 +75,33 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>btn_backItem.png</key>
+		<data>
+		RQol1G5Z18WMFOq2mriKHin3jhg=
+		</data>
+		<key>btn_backItem_highlighted.png</key>
+		<data>
+		rw1jihrQEEVoFExQyTp7CEZocKI=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		aGoHqUzNchO/6RiTW5X5YbUslBU=
+		</data>
+		<key>icon_tabbar_mine.png</key>
+		<data>
+		l69alvt4QFLYUL6M6pfKzN291Qc=
+		</data>
+		<key>icon_tabbar_mine_selected.png</key>
+		<data>
+		c894DCpuqQVBkySjsnS9kn5CJuM=
+		</data>
+		<key>icon_tabbar_nearby.png</key>
+		<data>
+		bor82fB6QmwsnR8dxBTSBw1w/4k=
+		</data>
+		<key>icon_tabbar_nearby_selected.png</key>
+		<data>
+		VEMKjaPPPxE3qAUrSfiuH1GxVIo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -145,9 +169,33 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>btn_backItem.png</key>
+		<data>
+		RQol1G5Z18WMFOq2mriKHin3jhg=
+		</data>
+		<key>btn_backItem_highlighted.png</key>
+		<data>
+		rw1jihrQEEVoFExQyTp7CEZocKI=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		aGoHqUzNchO/6RiTW5X5YbUslBU=
+		</data>
+		<key>icon_tabbar_mine.png</key>
+		<data>
+		l69alvt4QFLYUL6M6pfKzN291Qc=
+		</data>
+		<key>icon_tabbar_mine_selected.png</key>
+		<data>
+		c894DCpuqQVBkySjsnS9kn5CJuM=
+		</data>
+		<key>icon_tabbar_nearby.png</key>
+		<data>
+		bor82fB6QmwsnR8dxBTSBw1w/4k=
+		</data>
+		<key>icon_tabbar_nearby_selected.png</key>
+		<data>
+		VEMKjaPPPxE3qAUrSfiuH1GxVIo=
 		</data>
 	</dict>
 	<key>rules</key>

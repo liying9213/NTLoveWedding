@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setLeftItemtype:1 RightItemtype:0];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

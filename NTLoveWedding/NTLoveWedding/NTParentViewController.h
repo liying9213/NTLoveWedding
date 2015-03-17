@@ -10,4 +10,6 @@
 
 @interface NTParentViewController : UIViewController
 
+-(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType;
+
 @end
