@@ -10,6 +10,7 @@
 #import "NTParentViewController.h"
 @interface ViewController : NTParentViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 

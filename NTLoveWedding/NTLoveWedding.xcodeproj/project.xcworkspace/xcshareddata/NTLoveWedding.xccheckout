@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>698FBF46-AA8E-4F65-BB7C-CB6FE2F3063F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NTLoveWedding</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03336334609FC6FC2FB5C3BB285407472D99B7FC</key>
+		<string>https://github.com/liying9213/NTLoveWedding.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NTLoveWedding/NTLoveWedding.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03336334609FC6FC2FB5C3BB285407472D99B7FC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liying9213/NTLoveWedding.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03336334609FC6FC2FB5C3BB285407472D99B7FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03336334609FC6FC2FB5C3BB285407472D99B7FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NTLoveWedding</string>
+		</dict>
+	</array>
+</dict>
+</plist>

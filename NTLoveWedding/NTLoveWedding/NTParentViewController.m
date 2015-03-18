@@ -22,10 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[NTColor colorWithHexString:NTWhiteColor];
-     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
     self.navigationController.navigationBar.translucent = NO;
     [self.navigationController.topViewController setNeedsStatusBarAppearanceUpdate];
-     [self setNeedsStatusBarAppearanceUpdate];
+    [self setNeedsStatusBarAppearanceUpdate];
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     [[self.navigationController navigationBar] setBackgroundImage:[NTImage imageWithFileName:@"HeaderBg_7.png"] forBarMetrics:UIBarMetricsDefault];
     
