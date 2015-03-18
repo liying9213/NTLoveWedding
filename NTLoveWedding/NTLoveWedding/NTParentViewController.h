@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NTParentViewController : UIViewController
+@interface NTParentViewController : UIViewController<UIGestureRecognizerDelegate>
 
 -(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType;
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NTLoginViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self setLeftItemtype:1 RightItemtype:1];
-    
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setLeftItemtype:1 RightItemtype:1];
+    self.title=@"000000";
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - NavigationAction
+
+-(void)localAction:(id)sender
+{
+    
+}
+-(void)userAction:(id)sender
+{
+    NTLoginViewController *viewController=[[NTLoginViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 @end

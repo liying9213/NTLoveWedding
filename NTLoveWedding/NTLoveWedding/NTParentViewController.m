@@ -9,16 +9,31 @@
 #import "NTParentViewController.h"
 #import "NTColor.h"
 #import "NTImage.h"
+#import "NTdefine.h"
 @interface NTParentViewController ()
 
 @end
 
 @implementation NTParentViewController
-
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[NTColor colorWithHexString:NTWhiteColor];
+     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
     self.navigationController.navigationBar.translucent = NO;
-
+    [self.navigationController.topViewController setNeedsStatusBarAppearanceUpdate];
+     [self setNeedsStatusBarAppearanceUpdate];
+    self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
+    [[self.navigationController navigationBar] setBackgroundImage:[NTImage imageWithFileName:@"HeaderBg_7.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    if (self.navigationController.viewControllers.count > 1)
+    {
+        self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    }
+    self.navigationController.interactivePopGestureRecognizer.enabled=YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -122,6 +137,24 @@
     
     
     
+}
+
+-(void)backAction:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (self.navigationController.viewControllers.count == 1)//关闭主界面的右滑返回
+    {
+        return NO;
+    }
+    else
+    {
+        NSLog(@"======");
+        return YES;
+    }
 }
 
 /*
