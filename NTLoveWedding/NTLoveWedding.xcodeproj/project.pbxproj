@@ -20,6 +20,7 @@
 		B27896D21AB966D5005A4E44 /* NTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D11AB966D5005A4E44 /* NTLoginViewController.m */; };
 		B27896D51AB96708005A4E44 /* NTRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D41AB96708005A4E44 /* NTRegisterViewController.m */; };
 		B27896D81AB968B8005A4E44 /* NTForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D71AB968B8005A4E44 /* NTForgetViewController.m */; };
+		B2DB84451ABAC6ED00627832 /* NTScrImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB84441ABAC6ED00627832 /* NTScrImgView.m */; };
 		B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C321AB8131B005DBC9B /* NTColor.m */; };
 		B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C351AB8137A005DBC9B /* NTImage.m */; };
 		B2EB5C3E1AB81AD1005DBC9B /* btn_backItem_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C381AB81AD1005DBC9B /* btn_backItem_highlighted.png */; };
@@ -64,6 +65,8 @@
 		B27896D41AB96708005A4E44 /* NTRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRegisterViewController.m; sourceTree = "<group>"; };
 		B27896D61AB968B8005A4E44 /* NTForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTForgetViewController.h; sourceTree = "<group>"; };
 		B27896D71AB968B8005A4E44 /* NTForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTForgetViewController.m; sourceTree = "<group>"; };
+		B2DB84431ABAC6ED00627832 /* NTScrImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTScrImgView.h; sourceTree = "<group>"; };
+		B2DB84441ABAC6ED00627832 /* NTScrImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTScrImgView.m; sourceTree = "<group>"; };
 		B2EB5C2D1AB811D7005DBC9B /* NTdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTdefine.h; sourceTree = "<group>"; };
 		B2EB5C311AB8131B005DBC9B /* NTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTColor.h; sourceTree = "<group>"; };
 		B2EB5C321AB8131B005DBC9B /* NTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTColor.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				B23A6C6B1AB67D7A0011A82C /* ViewController.m */,
 				B23A6C701AB67D7A0011A82C /* Images.xcassets */,
 				B27896CE1AB9288A005A4E44 /* Main.storyboard */,
+				B2DB84421ABAC63F00627832 /* NTView */,
+				B2D534A51AB9B2AB008635BC /* NTService */,
 				B2EB5C441AB831E2005DBC9B /* NTTableViewCell */,
 				B2EB5C451AB831E2005DBC9B /* NTUser */,
 				B2EB5C301AB812DA005DBC9B /* NTCustomClass */,
@@ -158,6 +163,22 @@
 				B23A6C7E1AB67D7A0011A82C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2D534A51AB9B2AB008635BC /* NTService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NTService;
+			sourceTree = "<group>";
+		};
+		B2DB84421ABAC63F00627832 /* NTView */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB84431ABAC6ED00627832 /* NTScrImgView.h */,
+				B2DB84441ABAC6ED00627832 /* NTScrImgView.m */,
+			);
+			path = NTView;
 			sourceTree = "<group>";
 		};
 		B2EB5C301AB812DA005DBC9B /* NTCustomClass */ = {
@@ -319,6 +340,7 @@
 				B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */,
 				B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */,
 				B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */,
+				B2DB84451ABAC6ED00627832 /* NTScrImgView.m in Sources */,
 				B27896D51AB96708005A4E44 /* NTRegisterViewController.m in Sources */,
 				B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */,
 				B27896D21AB966D5005A4E44 /* NTLoginViewController.m in Sources */,
