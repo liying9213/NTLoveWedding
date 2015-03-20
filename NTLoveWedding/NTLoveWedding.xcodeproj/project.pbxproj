@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20288361ABBBE9E00C61FE6 /* NTSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20288351ABBBE9E00C61FE6 /* NTSelectView.m */; };
+		B202883A1ABBCA6800C61FE6 /* NTRecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20288391ABBCA6800C61FE6 /* NTRecommendView.m */; };
 		B23A6C661AB67D7A0011A82C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C651AB67D7A0011A82C /* main.m */; };
 		B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C681AB67D7A0011A82C /* AppDelegate.m */; };
 		B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C6B1AB67D7A0011A82C /* ViewController.m */; };
 		B23A6C711AB67D7A0011A82C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C701AB67D7A0011A82C /* Images.xcassets */; };
 		B23A6C801AB67D7A0011A82C /* NTLoveWeddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */; };
 		B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C8B1AB682530011A82C /* NTParentViewController.m */; };
+		B2671AC51ABBFD2C00E7C165 /* NTTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AC41ABBFD2C00E7C165 /* NTTimeTableViewCell.m */; };
+		B2671AC91ABC034100E7C165 /* NTSyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AC81ABC034100E7C165 /* NTSyncConnection.m */; };
+		B2671ACC1ABC036200E7C165 /* NTDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671ACB1ABC036200E7C165 /* NTDataService.m */; };
+		B2671AD11ABC07D600E7C165 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */; };
+		B26C690C1ABC0FAB005A1240 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69031ABC0FAB005A1240 /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B26C690D1ABC0FAB005A1240 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B26C690E1ABC0FAB005A1240 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B26C690F1ABC0FAB005A1240 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C690B1ABC0FAB005A1240 /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B26C69121ABC0FD0005A1240 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69111ABC0FD0005A1240 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B27896CB1AB91567005A4E44 /* HeaderBg_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896C81AB91567005A4E44 /* HeaderBg_7.png */; };
 		B27896CC1AB91567005A4E44 /* HeaderBg_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896C91AB91567005A4E44 /* HeaderBg_7@2x.png */; };
 		B27896CD1AB91567005A4E44 /* HeaderBg_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896CA1AB91567005A4E44 /* HeaderBg_7@3x.png */; };
@@ -20,6 +31,8 @@
 		B27896D21AB966D5005A4E44 /* NTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D11AB966D5005A4E44 /* NTLoginViewController.m */; };
 		B27896D51AB96708005A4E44 /* NTRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D41AB96708005A4E44 /* NTRegisterViewController.m */; };
 		B27896D81AB968B8005A4E44 /* NTForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27896D71AB968B8005A4E44 /* NTForgetViewController.m */; };
+		B2A9D7641ABC12710040553B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A9D7631ABC12710040553B /* UIKit.framework */; };
+		B2A9D7681ABC12ED0040553B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A9D7671ABC12ED0040553B /* Foundation.framework */; };
 		B2DB84451ABAC6ED00627832 /* NTScrImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB84441ABAC6ED00627832 /* NTScrImgView.m */; };
 		B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C321AB8131B005DBC9B /* NTColor.m */; };
 		B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5C351AB8137A005DBC9B /* NTImage.m */; };
@@ -42,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B20288341ABBBE9E00C61FE6 /* NTSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSelectView.h; sourceTree = "<group>"; };
+		B20288351ABBBE9E00C61FE6 /* NTSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSelectView.m; sourceTree = "<group>"; };
+		B20288381ABBCA6800C61FE6 /* NTRecommendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRecommendView.h; sourceTree = "<group>"; };
+		B20288391ABBCA6800C61FE6 /* NTRecommendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRecommendView.m; sourceTree = "<group>"; };
 		B23A6C601AB67D7A0011A82C /* NTLoveWedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTLoveWedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23A6C641AB67D7A0011A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B23A6C651AB67D7A0011A82C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +72,24 @@
 		B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTLoveWeddingTests.m; sourceTree = "<group>"; };
 		B23A6C8A1AB682530011A82C /* NTParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTParentViewController.h; sourceTree = "<group>"; };
 		B23A6C8B1AB682530011A82C /* NTParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTParentViewController.m; sourceTree = "<group>"; };
+		B2671AC31ABBFD2C00E7C165 /* NTTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTimeTableViewCell.h; sourceTree = "<group>"; };
+		B2671AC41ABBFD2C00E7C165 /* NTTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTimeTableViewCell.m; sourceTree = "<group>"; };
+		B2671AC71ABC034100E7C165 /* NTSyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSyncConnection.h; sourceTree = "<group>"; };
+		B2671AC81ABC034100E7C165 /* NTSyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSyncConnection.m; sourceTree = "<group>"; };
+		B2671ACA1ABC036200E7C165 /* NTDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDataService.h; sourceTree = "<group>"; };
+		B2671ACB1ABC036200E7C165 /* NTDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDataService.m; sourceTree = "<group>"; };
+		B2671ACF1ABC07D600E7C165 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B26C69021ABC0FAB005A1240 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		B26C69031ABC0FAB005A1240 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		B26C69051ABC0FAB005A1240 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		B26C69071ABC0FAB005A1240 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		B26C690A1ABC0FAB005A1240 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		B26C690B1ABC0FAB005A1240 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		B26C69101ABC0FD0005A1240 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		B26C69111ABC0FD0005A1240 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
 		B27896C81AB91567005A4E44 /* HeaderBg_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderBg_7.png; sourceTree = "<group>"; };
 		B27896C91AB91567005A4E44 /* HeaderBg_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBg_7@2x.png"; sourceTree = "<group>"; };
 		B27896CA1AB91567005A4E44 /* HeaderBg_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBg_7@3x.png"; sourceTree = "<group>"; };
@@ -65,6 +100,8 @@
 		B27896D41AB96708005A4E44 /* NTRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRegisterViewController.m; sourceTree = "<group>"; };
 		B27896D61AB968B8005A4E44 /* NTForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTForgetViewController.h; sourceTree = "<group>"; };
 		B27896D71AB968B8005A4E44 /* NTForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTForgetViewController.m; sourceTree = "<group>"; };
+		B2A9D7631ABC12710040553B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2A9D7671ABC12ED0040553B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2DB84431ABAC6ED00627832 /* NTScrImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTScrImgView.h; sourceTree = "<group>"; };
 		B2DB84441ABAC6ED00627832 /* NTScrImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTScrImgView.m; sourceTree = "<group>"; };
 		B2EB5C2D1AB811D7005DBC9B /* NTdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTdefine.h; sourceTree = "<group>"; };
@@ -85,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A9D7681ABC12ED0040553B /* Foundation.framework in Frameworks */,
+				B2A9D7641ABC12710040553B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +143,7 @@
 				B23A6C621AB67D7A0011A82C /* NTLoveWedding */,
 				B23A6C7C1AB67D7A0011A82C /* NTLoveWeddingTests */,
 				B23A6C611AB67D7A0011A82C /* Products */,
+				B2A9D7661ABC12C90040553B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,10 +169,11 @@
 				B23A6C701AB67D7A0011A82C /* Images.xcassets */,
 				B27896CE1AB9288A005A4E44 /* Main.storyboard */,
 				B2DB84421ABAC63F00627832 /* NTView */,
-				B2D534A51AB9B2AB008635BC /* NTService */,
+				B2671AC61ABC032D00E7C165 /* NTService */,
 				B2EB5C441AB831E2005DBC9B /* NTTableViewCell */,
 				B2EB5C451AB831E2005DBC9B /* NTUser */,
 				B2EB5C301AB812DA005DBC9B /* NTCustomClass */,
+				B2671ACD1ABC061900E7C165 /* NTOpenFrame */,
 				B2EB5C371AB814DD005DBC9B /* NTResource */,
 				B23A6C631AB67D7A0011A82C /* Supporting Files */,
 			);
@@ -165,11 +206,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2D534A51AB9B2AB008635BC /* NTService */ = {
+		B2671AC61ABC032D00E7C165 /* NTService */ = {
 			isa = PBXGroup;
 			children = (
+				B2671ACA1ABC036200E7C165 /* NTDataService.h */,
+				B2671ACB1ABC036200E7C165 /* NTDataService.m */,
+				B2671AC71ABC034100E7C165 /* NTSyncConnection.h */,
+				B2671AC81ABC034100E7C165 /* NTSyncConnection.m */,
 			);
 			path = NTService;
+			sourceTree = "<group>";
+		};
+		B2671ACD1ABC061900E7C165 /* NTOpenFrame */ = {
+			isa = PBXGroup;
+			children = (
+				B26C68FF1ABC0F84005A1240 /* EGOImageView */,
+				B2671ACE1ABC07C900E7C165 /* MBProgressHUD */,
+			);
+			path = NTOpenFrame;
+			sourceTree = "<group>";
+		};
+		B2671ACE1ABC07C900E7C165 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B2671ACF1ABC07D600E7C165 /* MBProgressHUD.h */,
+				B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B26C68FF1ABC0F84005A1240 /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B26C69001ABC0FAB005A1240 /* EGOCache */,
+				B26C69011ABC0FAB005A1240 /* EGOImageButton */,
+				B26C69041ABC0FAB005A1240 /* EGOImageLoader */,
+				B26C69091ABC0FAB005A1240 /* EGOImageView */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
+		B26C69001ABC0FAB005A1240 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				B26C69101ABC0FD0005A1240 /* EGOCache.h */,
+				B26C69111ABC0FD0005A1240 /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		B26C69011ABC0FAB005A1240 /* EGOImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				B26C69021ABC0FAB005A1240 /* EGOImageButton.h */,
+				B26C69031ABC0FAB005A1240 /* EGOImageButton.m */,
+			);
+			path = EGOImageButton;
+			sourceTree = "<group>";
+		};
+		B26C69041ABC0FAB005A1240 /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				B26C69051ABC0FAB005A1240 /* EGOImageLoadConnection.h */,
+				B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */,
+				B26C69071ABC0FAB005A1240 /* EGOImageLoader.h */,
+				B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		B26C69091ABC0FAB005A1240 /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B26C690A1ABC0FAB005A1240 /* EGOImageView.h */,
+				B26C690B1ABC0FAB005A1240 /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
+		B2A9D7661ABC12C90040553B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2A9D7671ABC12ED0040553B /* Foundation.framework */,
+				B2A9D7631ABC12710040553B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B2DB84421ABAC63F00627832 /* NTView */ = {
@@ -177,6 +298,10 @@
 			children = (
 				B2DB84431ABAC6ED00627832 /* NTScrImgView.h */,
 				B2DB84441ABAC6ED00627832 /* NTScrImgView.m */,
+				B20288341ABBBE9E00C61FE6 /* NTSelectView.h */,
+				B20288351ABBBE9E00C61FE6 /* NTSelectView.m */,
+				B20288381ABBCA6800C61FE6 /* NTRecommendView.h */,
+				B20288391ABBCA6800C61FE6 /* NTRecommendView.m */,
 			);
 			path = NTView;
 			sourceTree = "<group>";
@@ -211,6 +336,8 @@
 		B2EB5C441AB831E2005DBC9B /* NTTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				B2671AC31ABBFD2C00E7C165 /* NTTimeTableViewCell.h */,
+				B2671AC41ABBFD2C00E7C165 /* NTTimeTableViewCell.m */,
 			);
 			path = NTTableViewCell;
 			sourceTree = "<group>";
@@ -340,13 +467,24 @@
 				B2EB5C331AB8131B005DBC9B /* NTColor.m in Sources */,
 				B23A6C6C1AB67D7A0011A82C /* ViewController.m in Sources */,
 				B23A6C691AB67D7A0011A82C /* AppDelegate.m in Sources */,
+				B202883A1ABBCA6800C61FE6 /* NTRecommendView.m in Sources */,
 				B2DB84451ABAC6ED00627832 /* NTScrImgView.m in Sources */,
 				B27896D51AB96708005A4E44 /* NTRegisterViewController.m in Sources */,
+				B20288361ABBBE9E00C61FE6 /* NTSelectView.m in Sources */,
+				B2671ACC1ABC036200E7C165 /* NTDataService.m in Sources */,
 				B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */,
+				B2671AC91ABC034100E7C165 /* NTSyncConnection.m in Sources */,
+				B2671AC51ABBFD2C00E7C165 /* NTTimeTableViewCell.m in Sources */,
+				B26C690E1ABC0FAB005A1240 /* EGOImageLoader.m in Sources */,
+				B26C690C1ABC0FAB005A1240 /* EGOImageButton.m in Sources */,
 				B27896D21AB966D5005A4E44 /* NTLoginViewController.m in Sources */,
 				B23A6C661AB67D7A0011A82C /* main.m in Sources */,
 				B27896D81AB968B8005A4E44 /* NTForgetViewController.m in Sources */,
 				B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */,
+				B26C69121ABC0FD0005A1240 /* EGOCache.m in Sources */,
+				B2671AD11ABC07D600E7C165 /* MBProgressHUD.m in Sources */,
+				B26C690F1ABC0FAB005A1240 /* EGOImageView.m in Sources */,
+				B26C690D1ABC0FAB005A1240 /* EGOImageLoadConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

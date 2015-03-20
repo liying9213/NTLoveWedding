@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "NTParentViewController.h"
-@interface ViewController : NTParentViewController
-
+#import "NTSelectView.h"
+#import "NTRecommendView.h"
+@interface ViewController : NTParentViewController<NTSelectViewDelegate,NTRecommendViewDelegate>
+{
+    float height;
+}
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

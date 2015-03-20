@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MBProgressHUD.h"
 @interface NTParentViewController : UIViewController<UIGestureRecognizerDelegate>
+{
+    MBProgressHUD *_waitingView;
+}
 
 -(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType;
+
+-(void)showWaitingView:(NSString *)str;
+-(void)hideWaitingView;
 
 @end

@@ -9,6 +9,8 @@
 #import "NTColor.h"
 #import "ViewController.h"
 #import "NTLoginViewController.h"
+#import "NTScrImgView.h"
+
 @interface ViewController ()
 
 @end
@@ -24,57 +26,40 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - ResetView
 - (void)resetView
 {
+    height=0;
     _scrollView.contentSize=CGSizeMake(0, MainHeight*2);
     [self ResetHeadView];
+    [self ResetModuleView];
+    [self ResetRecommendView];
+    
 }
 
 - (void)ResetHeadView
 {
-    UIScrollView *headScroll=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, MainWidth, 150)];
-    headScroll.tag=1024;
-    headScroll.backgroundColor=[UIColor clearColor];
-    headScroll.showsHorizontalScrollIndicator=YES;
-    headScroll.showsVerticalScrollIndicator=NO;
-    headScroll.pagingEnabled=YES;
-    for (int i=0; i<3; i++) {
-        UIView *sonView=[[UIView alloc] initWithFrame:CGRectMake(MainWidth*i,0 , MainWidth, 150)];
-        sonView.backgroundColor=[NTColor yellowColor];
-        [headScroll addSubview:sonView];
-    }
-    headScroll.contentSize=CGSizeMake(MainWidth*3, 0);
-    [_scrollView addSubview:headScroll];
-    UIView *contentView=[[UIView alloc] initWithFrame:CGRectMake(0, 120, MainWidth, 50)];
-    contentView.backgroundColor=[UIColor clearColor];
-    UIView *bgView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, MainWidth, 50)];
-    bgView.backgroundColor=[NTColor colorWithHexString:NTWhiteColor];
-    bgView.alpha=0.8;
-    [contentView addSubview:bgView];
-    [_scrollView addSubview:contentView];
-    for (int i=0; i<3; i++)
-    {
-        UILabel *titleLabel=[[UILabel alloc] initWithFrame:CGRectMake(MainWidth/3*i, 0, MainWidth/3, 50)];
-        titleLabel.text=@"90932\n加入";
-        titleLabel.numberOfLines=0;
-        titleLabel.textAlignment=NSTextAlignmentCenter;
-        titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
-        [contentView addSubview:titleLabel];
-    }
+    NTScrImgView *scrImgView=[[NTScrImgView alloc] initWithFrame:CGRectMake(0, height, MainWidth, 150*Mulriple) withData:nil];
+    [_scrollView addSubview:scrImgView];
+    height+=scrImgView.frame.size.height;
 }
 
 - (void)ResetModuleView
 {
-    
+    NTSelectView *selectView=[[NTSelectView alloc] initWithFrame:CGRectMake(0, height, MainWidth, 150*Mulriple) withData:nil];
+    selectView.delegate=self;
+    [_scrollView addSubview:selectView];
+    height+=selectView.frame.size.height;
 }
 
 - (void)ResetRecommendView
 {
-    
+    NTRecommendView *recommendView=[[NTRecommendView alloc] initWithFrame:CGRectMake(0, height, MainWidth, 150*Mulriple) withData:nil];
+    recommendView.delegate=self;
+    [_scrollView addSubview:recommendView];
+    height+=recommendView.frame.size.height;
 }
 
 - (void)ResetScrollSelectView
@@ -83,6 +68,17 @@
 }
 
 - (void)ResetListView
+{
+    
+}
+
+#pragma mark - SelectViewDelegate
+-(void)selectAction:(id)sender
+{
+    NSLog(@"====%@",(UIButton *)sender);
+}
+
+-(void)RecommendAction:(id)sender
 {
     
 }
