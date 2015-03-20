@@ -157,6 +157,25 @@
     }
 }
 
+#pragma mark - waitingView
+-(void)showWaitingView:(NSString *)str
+{
+    if (!_waitingView)
+    {
+        _waitingView = [[MBProgressHUD alloc] initWithView:self.view];
+        [self.view addSubview:_waitingView];
+    }
+    if (str==nil)
+    {
+        str=@"正在请求...";
+    }
+    _waitingView.labelText = str;
+    [_waitingView show:YES];
+}
+-(void)hideWaitingView
+{
+    [_waitingView hide:YES];
+}
 /*
 #pragma mark - Navigation
 

@@ -21,4 +21,6 @@
 
 #define NTWhiteColor @"#FDFEFC"  
 
+#define DefaultTimer 15
+
 #endif

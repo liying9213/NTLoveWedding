@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NTScrImgView : UIView
-
--(id)initWithFrame:(CGRect)frame;
+@interface NTScrImgView : UIView<UIScrollViewDelegate>
+{
+    float width;
+    float height;
+    UIView *scrBgView;
+}
+-(id)initWithFrame:(CGRect)frame withData:(id)data;
 
 @end
