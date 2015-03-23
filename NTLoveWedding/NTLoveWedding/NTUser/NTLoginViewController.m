@@ -7,7 +7,7 @@
 //
 
 #import "NTLoginViewController.h"
-
+#import <POP/POP.h>
 @interface NTLoginViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setLeftItemtype:2 RightItemtype:0];
+    [self ResetView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,14 +30,25 @@
     [super viewWillDisappear:animated];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)ResetView
+{
+    UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame=CGRectMake(100, 200, 100, 50);
+    btn.backgroundColor=[UIColor lightGrayColor];
+    [btn addTarget:self action:@selector(shakeButton:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
-*/
+- (void)shakeButton:(id)sender
+{
+    UIButton *btn=(UIButton *)sender;
+    
+    POPSpringAnimation *positionAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    positionAnimation.velocity = @2000;
+    positionAnimation.springBounciness = 20;
+    [positionAnimation setCompletionBlock:^(POPAnimation *animation, BOOL finished) {
+        btn.userInteractionEnabled = YES;
+    }];
+    [btn.layer pop_addAnimation:positionAnimation forKey:@"positionAnimation"];
+}
 
 @end

@@ -5,7 +5,6 @@
 //  Created by 李莹 on 15/3/16.
 //  Copyright (c) 2015年 liying. All rights reserved.
 //
-
 #import "NTParentViewController.h"
 #import "NTColor.h"
 #import "NTImage.h"
@@ -28,12 +27,22 @@
     [self setNeedsStatusBarAppearanceUpdate];
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     [[self.navigationController navigationBar] setBackgroundImage:[NTImage imageWithFileName:@"HeaderBg_7.png"] forBarMetrics:UIBarMetricsDefault];
-    
+
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
     if (self.navigationController.viewControllers.count > 1)
     {
         self.navigationController.interactivePopGestureRecognizer.delegate = self;
+        self.navigationController.interactivePopGestureRecognizer.enabled=YES;
     }
-    self.navigationController.interactivePopGestureRecognizer.enabled=YES;
+    else
+    {
+        self.navigationController.interactivePopGestureRecognizer.enabled=NO;
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -162,8 +171,8 @@
 {
     if (!_waitingView)
     {
-        _waitingView = [[MBProgressHUD alloc] initWithView:self.view];
-        [self.view addSubview:_waitingView];
+//        _waitingView =[[MBProgressHUD alloc] initWithView:self.view];
+//        [self.view addSubview:_waitingView];
     }
     if (str==nil)
     {

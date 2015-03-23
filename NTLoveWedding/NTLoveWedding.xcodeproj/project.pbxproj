@@ -15,15 +15,10 @@
 		B23A6C711AB67D7A0011A82C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A6C701AB67D7A0011A82C /* Images.xcassets */; };
 		B23A6C801AB67D7A0011A82C /* NTLoveWeddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */; };
 		B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6C8B1AB682530011A82C /* NTParentViewController.m */; };
+		B2670B961ABFB8ED00A3D1EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2670B951ABFB8ED00A3D1EC /* CoreGraphics.framework */; };
 		B2671AC51ABBFD2C00E7C165 /* NTTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AC41ABBFD2C00E7C165 /* NTTimeTableViewCell.m */; };
 		B2671AC91ABC034100E7C165 /* NTSyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AC81ABC034100E7C165 /* NTSyncConnection.m */; };
 		B2671ACC1ABC036200E7C165 /* NTDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671ACB1ABC036200E7C165 /* NTDataService.m */; };
-		B2671AD11ABC07D600E7C165 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */; };
-		B26C690C1ABC0FAB005A1240 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69031ABC0FAB005A1240 /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B26C690D1ABC0FAB005A1240 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B26C690E1ABC0FAB005A1240 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B26C690F1ABC0FAB005A1240 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C690B1ABC0FAB005A1240 /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B26C69121ABC0FD0005A1240 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C69111ABC0FD0005A1240 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B27896CB1AB91567005A4E44 /* HeaderBg_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896C81AB91567005A4E44 /* HeaderBg_7.png */; };
 		B27896CC1AB91567005A4E44 /* HeaderBg_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896C91AB91567005A4E44 /* HeaderBg_7@2x.png */; };
 		B27896CD1AB91567005A4E44 /* HeaderBg_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B27896CA1AB91567005A4E44 /* HeaderBg_7@3x.png */; };
@@ -42,6 +37,7 @@
 		B2EB5C411AB81AD1005DBC9B /* icon_tabbar_mine.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3B1AB81AD1005DBC9B /* icon_tabbar_mine.png */; };
 		B2EB5C421AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3C1AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png */; };
 		B2EB5C431AB81AD1005DBC9B /* icon_tabbar_nearby.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */; };
+		B2F9972C1AC01BDB003950C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9972B1AC01BDB003950C7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F9A745EB0B0291BBDD1876D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5FE82AD71F0B2CC3957A1E0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B20288341ABBBE9E00C61FE6 /* NTSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSelectView.h; sourceTree = "<group>"; };
 		B20288351ABBBE9E00C61FE6 /* NTSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSelectView.m; sourceTree = "<group>"; };
 		B20288381ABBCA6800C61FE6 /* NTRecommendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRecommendView.h; sourceTree = "<group>"; };
@@ -72,24 +70,18 @@
 		B23A6C7F1AB67D7A0011A82C /* NTLoveWeddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTLoveWeddingTests.m; sourceTree = "<group>"; };
 		B23A6C8A1AB682530011A82C /* NTParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTParentViewController.h; sourceTree = "<group>"; };
 		B23A6C8B1AB682530011A82C /* NTParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTParentViewController.m; sourceTree = "<group>"; };
+		B2670B931ABFB8DD00A3D1EC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		B2670B951ABFB8ED00A3D1EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2670B991ABFC1F900A3D1EC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		B2670B9B1ABFC2F200A3D1EC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		B2670BA11ABFC78A00A3D1EC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		B2670BA31ABFCB8800A3D1EC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		B2671AC31ABBFD2C00E7C165 /* NTTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTimeTableViewCell.h; sourceTree = "<group>"; };
 		B2671AC41ABBFD2C00E7C165 /* NTTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTimeTableViewCell.m; sourceTree = "<group>"; };
 		B2671AC71ABC034100E7C165 /* NTSyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSyncConnection.h; sourceTree = "<group>"; };
 		B2671AC81ABC034100E7C165 /* NTSyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSyncConnection.m; sourceTree = "<group>"; };
 		B2671ACA1ABC036200E7C165 /* NTDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDataService.h; sourceTree = "<group>"; };
 		B2671ACB1ABC036200E7C165 /* NTDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDataService.m; sourceTree = "<group>"; };
-		B2671ACF1ABC07D600E7C165 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		B26C69021ABC0FAB005A1240 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
-		B26C69031ABC0FAB005A1240 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
-		B26C69051ABC0FAB005A1240 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
-		B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
-		B26C69071ABC0FAB005A1240 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
-		B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
-		B26C690A1ABC0FAB005A1240 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
-		B26C690B1ABC0FAB005A1240 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
-		B26C69101ABC0FD0005A1240 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
-		B26C69111ABC0FD0005A1240 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
 		B27896C81AB91567005A4E44 /* HeaderBg_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderBg_7.png; sourceTree = "<group>"; };
 		B27896C91AB91567005A4E44 /* HeaderBg_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBg_7@2x.png"; sourceTree = "<group>"; };
 		B27896CA1AB91567005A4E44 /* HeaderBg_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBg_7@3x.png"; sourceTree = "<group>"; };
@@ -115,6 +107,7 @@
 		B2EB5C3B1AB81AD1005DBC9B /* icon_tabbar_mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_mine.png; sourceTree = "<group>"; };
 		B2EB5C3C1AB81AD1005DBC9B /* icon_tabbar_nearby_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_nearby_selected.png; sourceTree = "<group>"; };
 		B2EB5C3D1AB81AD1005DBC9B /* icon_tabbar_nearby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_nearby.png; sourceTree = "<group>"; };
+		B2F9972B1AC01BDB003950C7 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F9972C1AC01BDB003950C7 /* libPods.a in Frameworks */,
+				B2670B961ABFB8ED00A3D1EC /* CoreGraphics.framework in Frameworks */,
 				B2A9D7681ABC12ED0040553B /* Foundation.framework in Frameworks */,
 				B2A9D7641ABC12710040553B /* UIKit.framework in Frameworks */,
 			);
@@ -137,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D35F29EEAC9E25DC8D025C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F9A745EB0B0291BBDD1876D /* Pods.debug.xcconfig */,
+				5FE82AD71F0B2CC3957A1E0E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B23A6C571AB67D7A0011A82C = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +148,7 @@
 				B23A6C7C1AB67D7A0011A82C /* NTLoveWeddingTests */,
 				B23A6C611AB67D7A0011A82C /* Products */,
 				B2A9D7661ABC12C90040553B /* Frameworks */,
+				1D35F29EEAC9E25DC8D025C0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,73 +225,20 @@
 		B2671ACD1ABC061900E7C165 /* NTOpenFrame */ = {
 			isa = PBXGroup;
 			children = (
-				B26C68FF1ABC0F84005A1240 /* EGOImageView */,
-				B2671ACE1ABC07C900E7C165 /* MBProgressHUD */,
 			);
 			path = NTOpenFrame;
-			sourceTree = "<group>";
-		};
-		B2671ACE1ABC07C900E7C165 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				B2671ACF1ABC07D600E7C165 /* MBProgressHUD.h */,
-				B2671AD01ABC07D600E7C165 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		B26C68FF1ABC0F84005A1240 /* EGOImageView */ = {
-			isa = PBXGroup;
-			children = (
-				B26C69001ABC0FAB005A1240 /* EGOCache */,
-				B26C69011ABC0FAB005A1240 /* EGOImageButton */,
-				B26C69041ABC0FAB005A1240 /* EGOImageLoader */,
-				B26C69091ABC0FAB005A1240 /* EGOImageView */,
-			);
-			path = EGOImageView;
-			sourceTree = "<group>";
-		};
-		B26C69001ABC0FAB005A1240 /* EGOCache */ = {
-			isa = PBXGroup;
-			children = (
-				B26C69101ABC0FD0005A1240 /* EGOCache.h */,
-				B26C69111ABC0FD0005A1240 /* EGOCache.m */,
-			);
-			path = EGOCache;
-			sourceTree = "<group>";
-		};
-		B26C69011ABC0FAB005A1240 /* EGOImageButton */ = {
-			isa = PBXGroup;
-			children = (
-				B26C69021ABC0FAB005A1240 /* EGOImageButton.h */,
-				B26C69031ABC0FAB005A1240 /* EGOImageButton.m */,
-			);
-			path = EGOImageButton;
-			sourceTree = "<group>";
-		};
-		B26C69041ABC0FAB005A1240 /* EGOImageLoader */ = {
-			isa = PBXGroup;
-			children = (
-				B26C69051ABC0FAB005A1240 /* EGOImageLoadConnection.h */,
-				B26C69061ABC0FAB005A1240 /* EGOImageLoadConnection.m */,
-				B26C69071ABC0FAB005A1240 /* EGOImageLoader.h */,
-				B26C69081ABC0FAB005A1240 /* EGOImageLoader.m */,
-			);
-			path = EGOImageLoader;
-			sourceTree = "<group>";
-		};
-		B26C69091ABC0FAB005A1240 /* EGOImageView */ = {
-			isa = PBXGroup;
-			children = (
-				B26C690A1ABC0FAB005A1240 /* EGOImageView.h */,
-				B26C690B1ABC0FAB005A1240 /* EGOImageView.m */,
-			);
-			path = EGOImageView;
 			sourceTree = "<group>";
 		};
 		B2A9D7661ABC12C90040553B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2F9972B1AC01BDB003950C7 /* libPods.a */,
+				B2670BA31ABFCB8800A3D1EC /* libPods.a */,
+				B2670BA11ABFC78A00A3D1EC /* libPods.a */,
+				B2670B9B1ABFC2F200A3D1EC /* libPods.a */,
+				B2670B991ABFC1F900A3D1EC /* libPods.a */,
+				B2670B931ABFB8DD00A3D1EC /* libPods.a */,
+				B2670B951ABFB8ED00A3D1EC /* CoreGraphics.framework */,
 				B2A9D7671ABC12ED0040553B /* Foundation.framework */,
 				B2A9D7631ABC12710040553B /* UIKit.framework */,
 			);
@@ -475,16 +427,10 @@
 				B23A6C8C1AB682530011A82C /* NTParentViewController.m in Sources */,
 				B2671AC91ABC034100E7C165 /* NTSyncConnection.m in Sources */,
 				B2671AC51ABBFD2C00E7C165 /* NTTimeTableViewCell.m in Sources */,
-				B26C690E1ABC0FAB005A1240 /* EGOImageLoader.m in Sources */,
-				B26C690C1ABC0FAB005A1240 /* EGOImageButton.m in Sources */,
 				B27896D21AB966D5005A4E44 /* NTLoginViewController.m in Sources */,
 				B23A6C661AB67D7A0011A82C /* main.m in Sources */,
 				B27896D81AB968B8005A4E44 /* NTForgetViewController.m in Sources */,
 				B2EB5C361AB8137A005DBC9B /* NTImage.m in Sources */,
-				B26C69121ABC0FD0005A1240 /* EGOCache.m in Sources */,
-				B2671AD11ABC07D600E7C165 /* MBProgressHUD.m in Sources */,
-				B26C690F1ABC0FAB005A1240 /* EGOImageView.m in Sources */,
-				B26C690D1ABC0FAB005A1240 /* EGOImageLoadConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,26 +531,80 @@
 		};
 		B23A6C841AB67D7A0011A82C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9A745EB0B0291BBDD1876D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Headers/Public/**",
+					"${SRCROOT}/Pods/Headers/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = NTLoveWedding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-pop\"",
+					"-l\"c++\"",
+				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B23A6C851AB67D7A0011A82C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE82AD71F0B2CC3957A1E0E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "COCOAPODS=1";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Headers/Public/**",
+					"${SRCROOT}/Pods/Headers/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = NTLoveWedding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-pop\"",
+					"-l\"c++\"",
+				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

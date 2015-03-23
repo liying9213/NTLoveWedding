@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 @interface NTParentViewController : UIViewController<UIGestureRecognizerDelegate>
 {
     MBProgressHUD *_waitingView;
