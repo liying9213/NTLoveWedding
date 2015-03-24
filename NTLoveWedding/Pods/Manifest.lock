@@ -1,0 +1,19 @@
+PODS:
+  - EGOCache (2.1.1)
+  - EGOImageLoading (0.0.1):
+    - EGOCache
+  - MBProgressHUD (0.9.1)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - EGOImageLoading
+  - MBProgressHUD
+  - pop
+
+SPEC CHECKSUMS:
+  EGOCache: e64216c34e0e1c6dd093a0fdb3e366b156685e80
+  EGOImageLoading: 8d33c6c4b5bc5651236bbcbc46e8a31a6715cd61
+  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+
+COCOAPODS: 0.36.0
