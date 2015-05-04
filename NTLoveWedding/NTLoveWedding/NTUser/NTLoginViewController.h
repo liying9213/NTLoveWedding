@@ -10,4 +10,7 @@
 #import "NTParentViewController.h"
 @interface NTLoginViewController : NTParentViewController
 
+@property (nonatomic, strong) UITextField *userNameTextField;
+@property (nonatomic, strong) UITextField *passWordTextField;
+
 @end

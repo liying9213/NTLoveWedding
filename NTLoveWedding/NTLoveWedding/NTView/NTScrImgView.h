@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <EGOImageLoading/EGOImageButton.h>
 @interface NTScrImgView : UIView<UIScrollViewDelegate>
 {
     float width;
     float height;
     UIView *scrBgView;
 }
--(id)initWithFrame:(CGRect)frame withData:(id)data;
+@property (nonatomic, assign) id delegate;
+-(id)initWithFrame:(CGRect)frame;
+-(void)ResetViewAndLabelWith:(id)data;
+-(void)ResetViewWith:(id)data;
 
 @end

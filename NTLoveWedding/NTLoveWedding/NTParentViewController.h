@@ -16,6 +16,7 @@
 -(void)setLeftItemtype:(int )LeftType RightItemtype:(int )RightType;
 
 -(void)showWaitingView:(NSString *)str;
+-(void)showEndText:(NSString *)str;
 -(void)hideWaitingView;
 
 @end

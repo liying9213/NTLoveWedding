@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"找回密码";
     [self setLeftItemtype:2 RightItemtype:0];
 }
 

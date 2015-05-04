@@ -171,16 +171,31 @@
 {
     if (!_waitingView)
     {
-//        _waitingView =[[MBProgressHUD alloc] initWithView:self.view];
-//        [self.view addSubview:_waitingView];
+        _waitingView =[[MBProgressHUD alloc] initWithView:self.view];
+        [self.view addSubview:_waitingView];
     }
     if (str==nil)
     {
         str=@"正在请求...";
     }
+    [self.view bringSubviewToFront:_waitingView];
     _waitingView.labelText = str;
     [_waitingView show:YES];
 }
+
+-(void)showEndText:(NSString *)str
+{
+    if (!_waitingView)
+    {
+        _waitingView =[[MBProgressHUD alloc] initWithView:self.view];
+        [self.view addSubview:_waitingView];
+    }
+    [self.view bringSubviewToFront:_waitingView];
+    _waitingView.labelText = str;
+    _waitingView.mode=MBProgressHUDModeText;
+    [_waitingView hide:YES afterDelay:1.0];
+}
+
 -(void)hideWaitingView
 {
     [_waitingView hide:YES];

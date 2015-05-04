@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"免费注册";
     [self setLeftItemtype:2 RightItemtype:0];
 }
 

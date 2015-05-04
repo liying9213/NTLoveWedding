@@ -8,6 +8,7 @@
 
 #import "NTSelectView.h"
 #import "NTColor.h"
+#import "NTdefine.h"
 @implementation NTSelectView
 
 -(id)initWithFrame:(CGRect)frame withData:(id)data
@@ -31,6 +32,9 @@
         btn.backgroundColor=[NTColor colorWithHexString:@"#FF60AF"];
         btn.frame=CGRectMake((60+value)*i+value, 16, 60, 60);
         btn.tag=i;
+        [btn setTitle:[[data objectAtIndex:i] objectForKey:@"name"] forState:UIControlStateNormal];
+        [btn setTitleColor:[NTColor colorWithHexString:NTWhiteColor] forState:UIControlStateNormal];
+        btn.titleLabel.font=[UIFont systemFontOfSize:13];
         [btn addTarget:_delegate action:@selector(selectAction:) forControlEvents:UIControlEventTouchUpInside];
         btn.layer.masksToBounds=YES;
         btn.layer.cornerRadius=30;

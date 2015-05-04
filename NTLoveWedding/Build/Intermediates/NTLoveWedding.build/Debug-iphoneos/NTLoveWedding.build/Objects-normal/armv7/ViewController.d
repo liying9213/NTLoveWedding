@@ -8,4 +8,15 @@ dependencies: \
   /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTView/NTSelectView.h \
   /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTView/NTRecommendView.h \
   /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTUser/NTLoginViewController.h \
-  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTView/NTScrImgView.h
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTView/NTScrImgView.h \
+  Pods/Headers/Private/EGOImageLoading/EGOImageButton.h \
+  Pods/Headers/Private/EGOImageLoading/EGOImageLoader.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTPlaceView/NTPlaceListViewController.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTDIYListView/NTDIYListViewController.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTAfflatusView/NTAfflatusListViewController.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/TMQuiltView/TMQuiltView.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/TMQuiltView/TMQuiltViewCell.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/TMQuiltView/TMQuiltViewController.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/TMPhotoQuiltViewCell.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTStrategyView/NTStrategyListViewController.h \
+  /Users/liying/GitHub/NTLoveWedding/NTLoveWedding/NTLoveWedding/NTWebView/NTWebViewController.h
